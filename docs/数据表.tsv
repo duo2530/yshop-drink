@@ -1,0 +1,99 @@
+表名	注释
+infra_api_access_log	API 访问日志表
+infra_api_error_log	系统异常日志
+infra_codegen_column	代码生成表字段定义
+infra_codegen_table	代码生成表定义
+infra_config	参数配置表
+infra_data_source_config	数据源配置表
+infra_file	文件表
+infra_file_config	文件配置表
+infra_file_content	文件表
+infra_job	定时任务表
+infra_job_log	定时任务日志表
+infra_test_demo	字典类型表
+member_address	会员地址表（据表名及测试建表语义补充）
+member_user	会员用户表（据表名及测试建表语义补充）
+merchant_details	支付服务商配置
+mp_account	公众号账号表
+mp_auto_reply	公众号消息自动回复表
+mp_material	公众号素材表
+mp_menu	公众号菜单表
+mp_message	公众号消息表
+mp_tag	公众号标签表
+mp_user	公众号粉丝表
+QRTZ_BLOB_TRIGGERS	Quartz 二进制触发器表（据 Quartz 表结构补充）
+QRTZ_CALENDARS	Quartz 日历表（据 Quartz 表结构补充）
+QRTZ_CRON_TRIGGERS	Quartz Cron 触发器表（据 Quartz 表结构补充）
+QRTZ_FIRED_TRIGGERS	Quartz 已触发任务表（据 Quartz 表结构补充）
+QRTZ_JOB_DETAILS	Quartz 任务详情表（据 Quartz 表结构补充）
+QRTZ_LOCKS	Quartz 锁表（据 Quartz 表结构补充）
+QRTZ_PAUSED_TRIGGER_GRPS	Quartz 暂停触发器组表（据 Quartz 表结构补充）
+QRTZ_SCHEDULER_STATE	Quartz 调度器状态表（据 Quartz 表结构补充）
+QRTZ_SIMPLE_TRIGGERS	Quartz 简单触发器表（据 Quartz 表结构补充）
+QRTZ_SIMPROP_TRIGGERS	Quartz 属性触发器表（据 Quartz 表结构补充）
+QRTZ_TRIGGERS	Quartz 触发器主表（据 Quartz 表结构补充）
+system_dept	部门表
+system_dict_data	字典数据表
+system_dict_type	字典类型表
+system_error_code	错误码表
+system_login_log	系统访问记录
+system_mail_account	邮箱账号表
+system_mail_log	邮件日志表
+system_mail_template	邮件模版表
+system_menu	菜单权限表
+system_notice	通知公告表
+system_notify_message	站内信消息表
+system_notify_template	站内信模板表
+system_oauth2_access_token	OAuth2 访问令牌
+system_oauth2_approve	OAuth2 批准表
+system_oauth2_client	OAuth2 客户端表
+system_oauth2_code	OAuth2 授权码表
+system_oauth2_refresh_token	OAuth2 刷新令牌
+system_operate_log	操作日志记录 V2 版本
+system_post	岗位信息表
+system_role	角色信息表
+system_role_menu	角色和菜单关联表
+system_sensitive_word	敏感词
+system_sms_channel	短信渠道
+system_sms_code	手机验证码
+system_sms_log	短信日志
+system_sms_template	短信模板
+system_social_client	社交登录客户端表（据实体与字段语义补充）
+system_social_user	社交用户表
+system_social_user_bind	社交绑定表
+system_tenant	租户表
+system_tenant_package	租户套餐表
+system_user_post	用户岗位表
+system_user_role	用户和角色关联表
+system_user_session	用户会话表（据测试建表语义补充）
+system_users	用户信息表
+yshop_coupon	优惠券表
+yshop_coupon_user	用户领的优惠券
+yshop_express	快递公司表
+yshop_material	素材库
+yshop_material_group	素材分组
+yshop_order_number	订单取餐号表
+yshop_score_order	积分商城订单表
+yshop_score_product	积分产品表
+yshop_service	我的服务
+yshop_shipping_templates	运费模板表
+yshop_shipping_templates_free	运费包邮明细
+yshop_shipping_templates_region	运费区域明细
+yshop_shop_ads	广告图管理
+yshop_store_order	订单表
+yshop_store_order_cart_info	订单购物详情表
+yshop_store_order_status	订单操作记录表
+yshop_store_product	商品表
+yshop_store_product_attr	商品属性表
+yshop_store_product_attr_result	商品属性详情表
+yshop_store_product_attr_value	商品属性值表
+yshop_store_product_brand	商品品牌
+yshop_store_product_category	商品分类
+yshop_store_product_relation	商品点赞和收藏表
+yshop_store_product_reply	评论表
+yshop_store_product_rule	商品规则值(规格)表
+yshop_store_shop	门店管理
+yshop_user	用户表
+yshop_user_address	用户地址表
+yshop_user_bill	用户账单表
+yshop_wechat_template	微信模板
